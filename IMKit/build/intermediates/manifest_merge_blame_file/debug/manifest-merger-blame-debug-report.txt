@@ -1,0 +1,280 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.imkit"
+4    android:versionCode="2019102520"
+5    android:versionName="2.10.0 release" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml
+10
+11    <!-- 访问相册，访问文件系统等 -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:6:5-80
+12-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:6:22-77
+13    <!-- 发送位置消息，实时位置共享 -->
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:8:5-81
+14-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:8:22-78
+15    <!-- 拍照 -->
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:10:5-65
+16-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:10:22-62
+17    <!-- 拍照等 -->
+18    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+18-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:12:5-73
+18-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:12:22-70
+19    <!-- 音视频 -->
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:14:5-78
+20-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:14:22-75
+21    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+21-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:15:5-85
+21-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:15:22-82
+22    <!-- 网络 -->
+23    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+23-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:17:5-76
+23-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:17:22-73
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:18:5-67
+24-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:18:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:19:5-79
+25-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:19:22-76
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:20:5-76
+26-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:20:22-73
+27    <!-- 录音 -->
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:22:5-71
+28-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:22:22-68
+29    <!-- 使用ActivityManager需要 -->
+30    <uses-permission android:name="android.permission.GET_TASKS" />
+30-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:24:5-68
+30-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:24:22-65
+31    <!-- 适配 Android 8.0 -->
+32    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+32-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:26:5-83
+32-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:26:22-80
+33    <!-- 保存图片，拍照等 -->
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:28:5-81
+34-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:28:22-78
+35    <!-- 新消息震动提醒 -->
+36    <uses-permission android:name="android.permission.VIBRATE" />
+36-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:30:5-66
+36-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:30:22-63
+37
+38    <application>
+38-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:32:5-150:19
+39        <activity
+39-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:35:9-37:52
+40            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+40-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:36:13-78
+41            android:screenOrientation="portrait" />
+41-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:37:13-49
+42        <activity
+42-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:38:9-40:52
+43            android:name="io.rong.imkit.plugin.location.AMapLocationActivity2D"
+43-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:39:13-80
+44            android:screenOrientation="portrait" />
+44-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:40:13-49
+45        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
+45-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:42:9-86
+45-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:42:19-83
+46        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity2D" />
+46-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:43:9-88
+46-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:43:19-85
+47        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+47-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:45:9-87
+47-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:45:19-84
+48        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity2D" />
+48-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:46:9-89
+48-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:46:19-86
+49        <activity
+49-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:48:9-51:71
+50            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+50-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:49:13-80
+51            android:screenOrientation="portrait"
+51-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:50:13-49
+52            android:windowSoftInputMode="stateVisible|adjustResize" />
+52-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:51:13-68
+53        <activity
+53-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:53:9-56:52
+54            android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
+54-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:54:13-78
+55            android:configChanges="keyboardHidden|orientation|screenSize"
+55-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:55:13-74
+56            android:screenOrientation="portrait" />
+56-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:56:13-49
+57        <activity
+57-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:58:9-60:52
+58            android:name="io.rong.imkit.plugin.image.PicturePreviewActivity"
+58-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:59:13-77
+59            android:screenOrientation="portrait" />
+59-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:60:13-49
+60
+61        <!-- 开发者可以修改 RongBaseActivity 的 rc_base_activity_layout 布局文件调整 actionbar -->
+62        <activity
+62-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:63:9-71:20
+63            android:name="io.rong.imkit.tools.RongWebviewActivity"
+63-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:64:13-67
+64            android:exported="false"
+64-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:65:13-37
+65            android:screenOrientation="portrait" >
+65-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:66:13-49
+66            <intent-filter>
+66-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:67:13-70:29
+67                <action android:name="io.rong.imkit.intent.action.webview" />
+67-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:68:17-78
+67-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:68:25-75
+68
+69                <category android:name="android.intent.category.DEFAULT" />
+69-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:17-76
+69-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:27-73
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:73:9-81:20
+73            android:name="io.rong.imkit.tools.CombineWebViewActivity"
+73-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:74:13-70
+74            android:exported="false"
+74-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:75:13-37
+75            android:screenOrientation="portrait" >
+75-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:76:13-49
+76            <intent-filter>
+76-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:77:13-80:29
+77                <action android:name="io.rong.imkit.intent.action.combinewebview" />
+77-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:78:17-85
+77-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:78:25-82
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:17-76
+79-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:27-73
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:83:9-86:52
+83            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+83-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:84:13-80
+84            android:configChanges="orientation|keyboardHidden"
+84-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:85:13-63
+85            android:screenOrientation="portrait" />
+85-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:86:13-49
+86        <activity
+86-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:88:9-96:20
+87            android:name="io.rong.imkit.activity.PicturePagerActivity"
+87-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:89:13-71
+88            android:exported="false"
+88-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:90:13-37
+89            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+89-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:91:13-71
+90            <intent-filter>
+90-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:92:13-95:29
+91                <action android:name="io.rong.imkit.intent.action.picturepagerview" />
+91-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:93:17-87
+91-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:93:25-84
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:17-76
+93-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:27-73
+94            </intent-filter>
+95        </activity>
+96        <activity
+96-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:98:9-101:67
+97            android:name="io.rong.imkit.mention.MemberMentionedActivity"
+97-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:99:13-73
+98            android:configChanges="orientation|keyboardHidden"
+98-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:100:13-63
+99            android:windowSoftInputMode="adjustPan|stateHidden" />
+99-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:101:13-64
+100        <activity android:name="io.rong.imkit.activity.FileManagerActivity" />
+100-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:102:9-79
+100-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:102:19-76
+101        <activity android:name="io.rong.imkit.activity.FileListActivity" />
+101-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:103:9-76
+101-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:103:19-73
+102        <activity
+102-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:104:9-112:20
+103            android:name="io.rong.imkit.activity.FilePreviewActivity"
+103-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:105:13-70
+104            android:exported="false"
+104-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:106:13-37
+105            android:screenOrientation="portrait" >
+105-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:107:13-49
+106            <intent-filter>
+106-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:108:13-111:29
+107                <action android:name="io.rong.imkit.intent.action.openfile" />
+107-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:109:17-79
+107-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:109:25-76
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:17-76
+109-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:27-73
+110            </intent-filter>
+111        </activity>
+112        <activity
+112-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:113:9-121:20
+113            android:name="io.rong.imkit.activity.WebFilePreviewActivity"
+113-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:114:13-73
+114            android:exported="false"
+114-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:115:13-37
+115            android:screenOrientation="portrait" >
+115-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:116:13-49
+116            <intent-filter>
+116-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:117:13-120:29
+117                <action android:name="io.rong.imkit.intent.action.openwebfile" />
+117-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:118:17-82
+117-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:118:25-79
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:17-76
+119-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:27-73
+120            </intent-filter>
+121        </activity>
+122        <activity
+122-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:123:9-126:52
+123            android:name="io.rong.imkit.activity.CSLeaveMessageActivity"
+123-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:124:13-60
+124            android:configChanges="orientation|keyboardHidden"
+124-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:125:13-63
+125            android:screenOrientation="portrait" />
+125-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:126:13-49
+126        <activity
+126-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:128:9-136:20
+127            android:name="io.rong.imkit.activity.GIFPreviewActivity"
+127-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:129:13-69
+128            android:exported="false"
+128-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:130:13-37
+129            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+129-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:131:13-71
+130            <intent-filter>
+130-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:132:13-135:29
+131                <action android:name="io.rong.imkit.intent.action.gifrview" />
+131-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:133:17-79
+131-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:133:25-76
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:17-76
+133-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:69:27-73
+134            </intent-filter>
+135        </activity>
+136        <activity android:name="io.rong.imkit.activity.SelectConversationActivity" />
+136-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:138:9-86
+136-->D:\work\AndroidProject\makecolor\MakeColor\IMKit\src\main\AndroidManifest.xml:138:19-83
+137        <!-- 此部分代码需要移植到您的 app 下的 manifest，并且 authorities 指定您的包名。例如：com.android.FileProvider -->
+138        <!-- 否则使用拍照功能时，会崩溃 -->
+139        <!-- <provider -->
+140        <!-- android:name="android.support.v4.content.FileProvider" -->
+141        <!-- android:authorities="包名.FileProvider" -->
+142        <!-- android:grantUriPermissions="true" -->
+143        <!-- android:exported="false"> -->
+144        <!-- <meta-data -->
+145        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+146        <!-- android:resource="@xml/rc_file_path"/> -->
+147        <!-- </provider> -->
+148    </application>
+149
+150</manifest>

@@ -1,0 +1,323 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jrmf360.rylib.test" >
+4
+5    <uses-sdk
+5-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:5:15-41
+7        android:targetSdkVersion="23" />
+7-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:11:5-15:72
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:13:22-53
+13        android:label="Tests for com.jrmf360.rylib.test"
+13-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:15:22-70
+14        android:targetPackage="com.jrmf360.rylib.test" />
+14-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:12:22-68
+15
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+16-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+17-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-76
+18-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-73
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-75
+19-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-72
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-81
+20-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-80
+21-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-77
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-79
+22-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-81
+23-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+24-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-75
+24-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-72
+25
+26    <application android:debuggable="true" >
+26-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:7:5-9:19
+26-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:7:18-43
+27        <uses-library android:name="android.test.runner" />
+27-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:8:9-60
+27-->D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2439683532888963618.xml:8:23-57
+28
+29        <activity
+29-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-24:77
+30            android:name="com.jrmf360.rylib.rp.ui.AddCardActivity"
+30-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-67
+31            android:configChanges="keyboardHidden|orientation|screenSize" />
+31-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-74
+32        <activity
+32-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-27:77
+33            android:name="com.jrmf360.rylib.rp.ui.AddCardFirsstActivity"
+33-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-73
+34            android:configChanges="keyboardHidden|orientation|screenSize" />
+34-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-74
+35        <activity
+35-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-30:77
+36            android:name="com.jrmf360.rylib.rp.ui.AddCardSecondActivity"
+36-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-73
+37            android:configChanges="keyboardHidden|orientation|screenSize" />
+37-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-74
+38        <activity
+38-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-33:77
+39            android:name="com.jrmf360.rylib.rp.ui.BankCardListActivity"
+39-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-72
+40            android:configChanges="keyboardHidden|orientation|screenSize" />
+40-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-74
+41        <activity
+41-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-36:77
+42            android:name="com.jrmf360.rylib.rp.ui.EnBrowserActivity"
+42-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-69
+43            android:configChanges="keyboardHidden|orientation|screenSize" />
+43-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-74
+44        <activity
+44-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-41:58
+45            android:name="com.jrmf360.rylib.rp.ui.PayTypeActivity"
+45-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-67
+46            android:configChanges="keyboardHidden|orientation|screenSize"
+46-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-74
+47            android:theme="@style/jrmf_dialog"
+47-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-47
+48            android:windowSoftInputMode="adjustResize" />
+48-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-55
+49        <activity
+49-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-47:58
+50            android:name="com.jrmf360.rylib.rp.ui.TransPayActivity"
+50-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-68
+51            android:configChanges="keyboardHidden|orientation|screenSize"
+51-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-74
+52            android:launchMode="singleTask"
+52-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-44
+53            android:theme="@style/jrmf_dialog"
+53-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-47
+54            android:windowSoftInputMode="adjustResize" />
+54-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-55
+55        <activity
+55-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-50:77
+56            android:name="com.jrmf360.rylib.rp.ui.RealNameActivity"
+56-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-68
+57            android:configChanges="keyboardHidden|orientation|screenSize" />
+57-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-74
+58        <activity
+58-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-53:77
+59            android:name="com.jrmf360.rylib.rp.ui.ResetPswdActivity"
+59-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-69
+60            android:configChanges="keyboardHidden|orientation|screenSize" />
+60-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-74
+61        <activity
+61-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-56:77
+62            android:name="com.jrmf360.rylib.rp.ui.SendGroupEnvelopesActivity"
+62-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-78
+63            android:configChanges="keyboardHidden|orientation|screenSize" />
+63-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-74
+64        <activity
+64-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-59:77
+65            android:name="com.jrmf360.rylib.rp.ui.SendSingleEnvelopesActivity"
+65-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-79
+66            android:configChanges="keyboardHidden|orientation|screenSize" />
+66-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-74
+67        <activity
+67-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-62:77
+68            android:name="com.jrmf360.rylib.rp.ui.SettingPswdActivity"
+68-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-71
+69            android:configChanges="keyboardHidden|orientation|screenSize" />
+69-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-74
+70        <activity
+70-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:9-65:77
+71            android:name="com.jrmf360.rylib.rp.ui.RpDetailActivity"
+71-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-68
+72            android:configChanges="keyboardHidden|orientation|screenSize" />
+72-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-74
+73        <activity
+73-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-68:77
+74            android:name="com.jrmf360.rylib.rp.ui.MyRpActivity"
+74-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-64
+75            android:configChanges="keyboardHidden|orientation|screenSize" />
+75-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-74
+76        <activity
+76-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-71:77
+77            android:name="com.jrmf360.rylib.rp.ui.FindPwdByInfoActivity"
+77-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-73
+78            android:configChanges="keyboardHidden|orientation|screenSize" />
+78-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-74
+79        <activity
+79-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-74:77
+80            android:name="com.jrmf360.rylib.rp.ui.TransAccountActivity"
+80-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-72
+81            android:configChanges="keyboardHidden|orientation|screenSize" />
+81-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-74
+82        <activity
+82-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-77:77
+83            android:name="com.jrmf360.rylib.rp.ui.TransSuccActivity"
+83-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-69
+84            android:configChanges="keyboardHidden|orientation|screenSize" />
+84-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-74
+85        <activity
+85-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-80:77
+86            android:name="com.jrmf360.rylib.rp.ui.TransDetailActivity"
+86-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-71
+87            android:configChanges="keyboardHidden|orientation|screenSize" /> <!-- 钱包 配置开始 -->
+87-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-74
+88        <activity
+88-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-86:47
+89            android:name="com.jrmf360.rylib.wallet.ui.MyWalletActivity"
+89-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-72
+90            android:configChanges="keyboardHidden|orientation|screenSize"
+90-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-74
+91            android:launchMode="singleTask" />
+91-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-44
+92        <activity
+92-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:9-89:77
+93            android:name="com.jrmf360.rylib.wallet.ui.AccountInfoActivity"
+93-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-75
+94            android:configChanges="keyboardHidden|orientation|screenSize" />
+94-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-74
+95        <activity
+95-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:9-92:77
+96            android:name="com.jrmf360.rylib.wallet.ui.TradeHistoryActivity"
+96-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-76
+97            android:configChanges="keyboardHidden|orientation|screenSize" />
+97-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-74
+98        <activity
+98-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-95:77
+99            android:name="com.jrmf360.rylib.wallet.ui.SecureSettingActivity"
+99-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:13-77
+100            android:configChanges="keyboardHidden|orientation|screenSize" />
+100-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-74
+101        <activity
+101-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:9-98:77
+102            android:name="com.jrmf360.rylib.wallet.ui.SetPayPwdActivity"
+102-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:13-73
+103            android:configChanges="keyboardHidden|orientation|screenSize" />
+103-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-74
+104        <activity
+104-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:9-101:77
+105            android:name="com.jrmf360.rylib.wallet.ui.IdentityAuthenActivity"
+105-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:13-78
+106            android:configChanges="keyboardHidden|orientation|screenSize" />
+106-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:13-74
+107        <activity
+107-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:9-104:77
+108            android:name="com.jrmf360.rylib.wallet.ui.UpdatePwdActivity"
+108-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-73
+109            android:configChanges="keyboardHidden|orientation|screenSize" />
+109-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-74
+110        <activity
+110-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:9-107:77
+111            android:name="com.jrmf360.rylib.wallet.ui.GetPwdActivity"
+111-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-70
+112            android:configChanges="keyboardHidden|orientation|screenSize" />
+112-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:13-74
+113        <activity
+113-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:9-110:77
+114            android:name="com.jrmf360.rylib.wallet.ui.SupportBankCardActivity"
+114-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-79
+115            android:configChanges="keyboardHidden|orientation|screenSize" />
+115-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-74
+116        <activity
+116-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:9-113:77
+117            android:name="com.jrmf360.rylib.wallet.ui.BankSettingActivity"
+117-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-75
+118            android:configChanges="keyboardHidden|orientation|screenSize" />
+118-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-74
+119        <activity
+119-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:9-116:77
+120            android:name="com.jrmf360.rylib.wallet.ui.AddCardSecondActivity"
+120-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-77
+121            android:configChanges="keyboardHidden|orientation|screenSize" />
+121-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-74
+122        <activity
+122-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:9-119:77
+123            android:name="com.jrmf360.rylib.wallet.ui.AddCardFirstActivity"
+123-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:118:13-76
+124            android:configChanges="keyboardHidden|orientation|screenSize" />
+124-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:119:13-74
+125        <activity
+125-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-122:77
+126            android:name="com.jrmf360.rylib.wallet.ui.RechargeActivity"
+126-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-72
+127            android:configChanges="keyboardHidden|orientation|screenSize" />
+127-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-74
+128        <activity
+128-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:9-126:70
+129            android:name="com.jrmf360.rylib.wallet.ui.GetDepositActivity"
+129-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-74
+130            android:configChanges="keyboardHidden|orientation|screenSize"
+130-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-74
+131            android:windowSoftInputMode="adjustResize|stateHidden" />
+131-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:13-67
+132        <activity
+132-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:9-129:77
+133            android:name="com.jrmf360.rylib.wallet.ui.PwdCheckActivity"
+133-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-72
+134            android:configChanges="keyboardHidden|orientation|screenSize" />
+134-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:13-74
+135        <activity
+135-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:9-132:77
+136            android:name="com.jrmf360.rylib.wallet.ui.MyRpActivity"
+136-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:131:13-68
+137            android:configChanges="keyboardHidden|orientation|screenSize" />
+137-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:132:13-74
+138        <activity
+138-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:9-135:77
+139            android:name="com.jrmf360.rylib.wallet.ui.SelectSubBankActivity"
+139-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-77
+140            android:configChanges="keyboardHidden|orientation|screenSize" />
+140-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:13-74
+141        <activity
+141-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:9-138:77
+142            android:name="com.jrmf360.rylib.wallet.ui.WebViewActivity"
+142-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:137:13-71
+143            android:configChanges="keyboardHidden|orientation|screenSize" />
+143-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:138:13-74
+144        <activity
+144-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:139:9-141:77
+145            android:name="com.jrmf360.rylib.wallet.ui.TradeDetailActivity"
+145-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:140:13-75
+146            android:configChanges="keyboardHidden|orientation|screenSize" /> <!-- 钱包配置结束 -->
+146-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:141:13-74
+147        <!-- 支付宝 begin -->
+148        <activity
+148-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:147:9-153:20
+149            android:name="com.alipay.sdk.app.H5PayActivity"
+149-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:148:13-60
+150            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+150-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:149:13-85
+151            android:exported="false"
+151-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:150:13-37
+152            android:screenOrientation="behind"
+152-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:151:13-47
+153            android:windowSoftInputMode="adjustResize|stateHidden" >
+153-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:152:13-67
+154        </activity>
+155        <activity
+155-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:154:9-159:20
+156            android:name="com.alipay.sdk.auth.AuthActivity"
+156-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:155:13-60
+157            android:configChanges="orientation|keyboardHidden|navigation"
+157-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:156:13-74
+158            android:exported="false"
+158-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:157:13-37
+159            android:screenOrientation="behind" >
+159-->[__tested_artifact__::RedPacket] D:\work\AndroidProject\makecolor\MakeColor\RedPacket\build\intermediates\library_manifest\debug\AndroidManifest.xml:158:13-47
+160        </activity>
+161    </application>
+162
+163</manifest>

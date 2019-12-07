@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.sticker"
+4    android:versionCode="2019112516"
+5    android:versionName="2.10.1 release" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\work\AndroidProject\makecolor\MakeColor\RCSticker\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->D:\work\AndroidProject\makecolor\MakeColor\RCSticker\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->D:\work\AndroidProject\makecolor\MakeColor\RCSticker\src\main\AndroidManifest.xml:4:5-8:19
+12        <activity
+12-->D:\work\AndroidProject\makecolor\MakeColor\RCSticker\src\main\AndroidManifest.xml:5:9-7:52
+13            android:name="io.rong.sticker.mysticker.MyStickerActivity"
+13-->D:\work\AndroidProject\makecolor\MakeColor\RCSticker\src\main\AndroidManifest.xml:6:13-56
+14            android:screenOrientation="portrait" />
+14-->D:\work\AndroidProject\makecolor\MakeColor\RCSticker\src\main\AndroidManifest.xml:7:13-49
+15    </application>
+16
+17</manifest>

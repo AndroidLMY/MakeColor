@@ -1,0 +1,453 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.rong.callkit.test" >
+4
+5    <uses-sdk
+5-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:5:15-41
+7        android:targetSdkVersion="23" />
+7-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:11:5-15:70
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:13:22-53
+13        android:label="Tests for io.rong.callkit.test"
+13-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:15:22-68
+14        android:targetPackage="io.rong.callkit.test" />
+14-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:12:22-66
+15
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+16-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+17-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-74
+18-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-71
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-68
+19-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-65
+20    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+20-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-85
+20-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-82
+21    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+21-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-78
+21-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-75
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-81
+22-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 发送位置消息，实时位置共享 -->
+23-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-80
+23-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-77
+24    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 拍照 -->
+24-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-81
+24-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:22-78
+25    <uses-permission android:name="android.permission.CAMERA" /> <!-- 拍照等 -->
+25-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-65
+25-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-62
+26    <uses-permission android:name="android.permission.WRITE_SETTINGS" /> <!-- 网络 -->
+26-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-73
+26-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-70
+27    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+27-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-76
+27-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:22-73
+28    <uses-permission android:name="android.permission.INTERNET" />
+28-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-67
+28-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:22-64
+29    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 录音 -->
+29-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:5-76
+29-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:22-73
+30    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 使用ActivityManager需要 -->
+30-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:5-71
+30-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:22-68
+31    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 适配 Android 8.0 -->
+31-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-68
+31-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-65
+32    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- 新消息震动提醒 -->
+32-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:5-83
+32-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:22-80
+33    <uses-permission android:name="android.permission.VIBRATE" />
+33-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-66
+33-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:22-63
+34    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+34-->[:CallLib] D:\work\AndroidProject\makecolor\MakeColor\CallLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+34-->[:CallLib] D:\work\AndroidProject\makecolor\MakeColor\CallLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-76
+35    <uses-permission android:name="android.permission.CAPTURE_VIDEO_OUTPUT" /> <!-- 消息通道保活 -->
+35-->[:CallLib] D:\work\AndroidProject\makecolor\MakeColor\CallLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-79
+35-->[:CallLib] D:\work\AndroidProject\makecolor\MakeColor\CallLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-76
+36    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 定位，如果您不需要定位相关的功能，可以删掉 -->
+36-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-68
+36-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-65
+37    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+37-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-79
+37-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:22-76
+38
+39    <application
+39-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:7:5-9:19
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\088953ab5717dc1ce090d1b4a54e8456\core-1.0.0\AndroidManifest.xml:22:18-86
+41        android:debuggable="true"
+41-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:7:18-43
+42        android:supportsRtl="true" >
+42-->[:CallLib] D:\work\AndroidProject\makecolor\MakeColor\CallLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:18-44
+43        <uses-library android:name="android.test.runner" />
+43-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:8:9-60
+43-->D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5727017354306755859.xml:8:23-57
+44        <!-- new voip config start -->
+45        <activity
+45-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-34:20
+46            android:name="io.rong.callkit.MultiVideoCallActivity"
+46-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-66
+47            android:exported="true"
+47-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
+48            android:launchMode="singleTop"
+48-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-43
+49            android:screenOrientation="portrait"
+49-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-49
+50            android:windowSoftInputMode="stateHidden|adjustResize" >
+50-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-67
+51            <intent-filter>
+51-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-33:29
+52                <action android:name="io.rong.intent.action.voip.MULTIVIDEO" />
+52-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-80
+52-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-77
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+54-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-52:20
+58            android:name="io.rong.callkit.SingleCallActivity"
+58-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-62
+59            android:exported="true"
+59-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-36
+60            android:launchMode="singleTop"
+60-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-43
+61            android:screenOrientation="portrait"
+61-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-49
+62            android:theme="@android:style/Theme.Holo.NoActionBar"
+62-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-66
+63            android:windowSoftInputMode="stateHidden|adjustResize" >
+63-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-67
+64            <intent-filter>
+64-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-46:29
+65                <action android:name="io.rong.intent.action.voip.SINGLEVIDEO" />
+65-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-81
+65-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:25-78
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+67-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+68            </intent-filter>
+69            <intent-filter>
+69-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-51:29
+70                <action android:name="io.rong.intent.action.voip.SINGLEAUDIO" />
+70-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:17-81
+70-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:25-78
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+72-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-64:20
+76            android:name="io.rong.callkit.MultiAudioCallActivity"
+76-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-66
+77            android:exported="true"
+77-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-36
+78            android:launchMode="singleTop"
+78-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-43
+79            android:screenOrientation="portrait"
+79-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-49
+80            android:windowSoftInputMode="stateHidden|adjustResize" >
+80-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-67
+81            <intent-filter>
+81-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-63:29
+82                <action android:name="io.rong.intent.action.voip.MULTIAUDIO" />
+82-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-80
+82-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:25-77
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+84-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+85            </intent-filter>
+86        </activity> <!-- new voip config end -->
+87        <activity android:name="io.rong.callkit.CallSelectMemberActivity" />
+87-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:9-77
+87-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:19-74
+88        <activity
+88-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-41:52
+89            android:name="io.rong.imkit.plugin.location.AMapLocationActivity"
+89-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-78
+90            android:screenOrientation="portrait" />
+90-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-49
+91        <activity
+91-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-44:52
+92            android:name="io.rong.imkit.plugin.location.AMapLocationActivity2D"
+92-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-80
+93            android:screenOrientation="portrait" />
+93-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-49
+94        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity" />
+94-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:9-86
+94-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:19-83
+95        <activity android:name="io.rong.imkit.plugin.location.AMapPreviewActivity2D" />
+95-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:9-88
+95-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:19-85
+96        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity" />
+96-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:9-87
+96-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:19-84
+97        <activity android:name="io.rong.imkit.plugin.location.AMapRealTimeActivity2D" />
+97-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-89
+97-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:19-86
+98        <activity
+98-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:9-52:71
+99            android:name="io.rong.imkit.plugin.location.SearchLocationActivity"
+99-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-80
+100            android:screenOrientation="portrait"
+100-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-49
+101            android:windowSoftInputMode="stateVisible|adjustResize" />
+101-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-68
+102        <activity
+102-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:9-56:52
+103            android:name="io.rong.imkit.plugin.image.PictureSelectorActivity"
+103-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-78
+104            android:configChanges="keyboardHidden|orientation|screenSize"
+104-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-74
+105            android:screenOrientation="portrait" />
+105-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-49
+106        <activity
+106-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:9-59:52
+107            android:name="io.rong.imkit.plugin.image.PicturePreviewActivity"
+107-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-77
+108            android:screenOrientation="portrait" /> <!-- 开发者可以修改 RongBaseActivity 的 rc_base_activity_layout 布局文件调整 actionbar -->
+108-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-49
+109        <activity
+109-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-71:20
+110            android:name="io.rong.imkit.tools.RongWebviewActivity"
+110-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-67
+111            android:exported="false"
+111-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-37
+112            android:screenOrientation="portrait" >
+112-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-49
+113            <intent-filter>
+113-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:13-70:29
+114                <action android:name="io.rong.imkit.intent.action.webview" />
+114-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:17-78
+114-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:25-75
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+116-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-81:20
+120            android:name="io.rong.imkit.tools.CombineWebViewActivity"
+120-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-70
+121            android:exported="false"
+121-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-37
+122            android:screenOrientation="portrait" >
+122-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-49
+123            <intent-filter>
+123-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-80:29
+124                <action android:name="io.rong.imkit.intent.action.combinewebview" />
+124-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:17-85
+124-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:25-82
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+126-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:9-85:52
+130            android:name="io.rong.imkit.widget.provider.TakingPicturesActivity"
+130-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-80
+131            android:configChanges="orientation|keyboardHidden"
+131-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-63
+132            android:screenOrientation="portrait" />
+132-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-49
+133        <activity
+133-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:9-95:20
+134            android:name="io.rong.imkit.activity.PicturePagerActivity"
+134-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:87:13-71
+135            android:exported="false"
+135-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:88:13-37
+136            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+136-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:13-71
+137            <intent-filter>
+137-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-94:29
+138                <action android:name="io.rong.imkit.intent.action.picturepagerview" />
+138-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:17-87
+138-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:25-84
+139
+140                <category android:name="android.intent.category.DEFAULT" />
+140-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+140-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+141            </intent-filter>
+142        </activity>
+143        <activity
+143-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:9-99:67
+144            android:name="io.rong.imkit.mention.MemberMentionedActivity"
+144-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:13-73
+145            android:configChanges="orientation|keyboardHidden"
+145-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-63
+146            android:windowSoftInputMode="adjustPan|stateHidden" />
+146-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-64
+147        <activity android:name="io.rong.imkit.activity.FileManagerActivity" />
+147-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:9-79
+147-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:19-76
+148        <activity android:name="io.rong.imkit.activity.FileListActivity" />
+148-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-76
+148-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:19-73
+149        <activity
+149-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:9-111:20
+150            android:name="io.rong.imkit.activity.FilePreviewActivity"
+150-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-70
+151            android:exported="false"
+151-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-37
+152            android:screenOrientation="portrait" >
+152-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:13-49
+153            <intent-filter>
+153-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-110:29
+154                <action android:name="io.rong.imkit.intent.action.openfile" />
+154-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:17-79
+154-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:25-76
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+156-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+157            </intent-filter>
+158        </activity>
+159        <activity
+159-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:9-121:20
+160            android:name="io.rong.imkit.activity.WebFilePreviewActivity"
+160-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-73
+161            android:exported="false"
+161-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-37
+162            android:screenOrientation="portrait" >
+162-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-49
+163            <intent-filter>
+163-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-120:29
+164                <action android:name="io.rong.imkit.intent.action.openwebfile" />
+164-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:17-82
+164-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:25-79
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+166-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+167            </intent-filter>
+168        </activity>
+169        <activity
+169-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:9-125:52
+170            android:name="io.rong.imkit.activity.CSLeaveMessageActivity"
+170-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-73
+171            android:configChanges="orientation|keyboardHidden"
+171-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-63
+172            android:screenOrientation="portrait" />
+172-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-49
+173        <activity
+173-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:9-135:20
+174            android:name="io.rong.imkit.activity.GIFPreviewActivity"
+174-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-69
+175            android:exported="false"
+175-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-37
+176            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+176-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:13-71
+177            <intent-filter>
+177-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:13-134:29
+178                <action android:name="io.rong.imkit.intent.action.gifrview" />
+178-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:131:17-79
+178-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:131:25-76
+179
+180                <category android:name="android.intent.category.DEFAULT" />
+180-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-76
+180-->[__tested_artifact__::CallKit] D:\work\AndroidProject\makecolor\MakeColor\CallKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:27-73
+181            </intent-filter>
+182        </activity>
+183        <activity android:name="io.rong.imkit.activity.SelectConversationActivity" /> <!-- imlib config begin -->
+183-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:9-86
+183-->[:IMKit] D:\work\AndroidProject\makecolor\MakeColor\IMKit\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:19-83
+184        <meta-data
+184-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-27:45
+185            android:name="RONG_CLOUD_APP_KEY"
+185-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-46
+186            android:value="c9kqb3rdc4buj" />
+186-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-42
+187
+188        <service
+188-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-32:38
+189            android:name="io.rong.imlib.ipc.RongService"
+189-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-57
+190            android:exported="true"
+190-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-36
+191            android:process=":ipc" />
+191-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-35
+192
+193        <receiver
+193-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-36:39
+194            android:name="io.rong.imlib.ConnectChangeReceiver"
+194-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-63
+195            android:exported="true" />
+195-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-36
+196        <receiver
+196-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-39:38
+197            android:name="io.rong.imlib.HeartbeatReceiver"
+197-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-59
+198            android:process=":ipc" /> <!-- imlib config end -->
+198-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-35
+199        <!-- 必选： SDK 核心功能 -->
+200        <service
+200-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-48:46
+201            android:name="io.rong.push.rongpush.PushService"
+201-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-61
+202            android:exported="true"
+202-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-36
+203            android:permission="android.permission.BIND_JOB_SERVICE"
+203-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-69
+204            android:process="io.rong.push" /> <!-- push 相关事件接收器 -->
+204-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-43
+205        <receiver
+205-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:9-66:20
+206            android:name="io.rong.push.rongpush.PushReceiver"
+206-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-62
+207            android:process="io.rong.push" > <!-- 此处进程可以改名，名称需要和PushService所在进程统一 -->
+207-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-43
+208            <!-- 心跳事件和网络切换事件监听,必须 -->
+209            <intent-filter>
+209-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-58:29
+210                <action android:name="io.rong.push.intent.action.HEART_BEAT" />
+210-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-80
+210-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:25-77
+211                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+211-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:17-79
+211-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:25-76
+212            </intent-filter>
+213
+214            <!-- 部分用户事件监听, 用来提高推送拉活率; 可移除 -->
+215            <intent-filter>
+215-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-65:29
+216                <action android:name="android.intent.action.USER_PRESENT" />
+216-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:17-77
+216-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:25-74
+217                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+217-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-87
+217-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:25-84
+218                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+218-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:17-90
+218-->[:IMLib] D:\work\AndroidProject\makecolor\MakeColor\IMLib\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:25-87
+219            </intent-filter>
+220        </receiver>
+221    </application>
+222
+223</manifest>

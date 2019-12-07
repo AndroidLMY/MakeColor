@@ -1,0 +1,2 @@
+include ':app', ':IMLib', ':IMKit', ':CallLib', ':CallKit', ':RedPacket', ':RCSticker'
+rootProject.name='StockControl'
